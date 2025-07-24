@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Certifcate</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: #fff;
+            border: 15px solid #0074B7;
+            padding: 30px;
+            box-sizing: border-box;
+
+        }
+
+        .header {
+            text-align: center;
+            padding-bottom: 20px;
+
+        }
+
+        .header img {
+            width: 100px;
+        }
+
+        h1 {
+            color: #0074B7;
+            font-size: 28px;
+            margin-bottom: 10px;
+        }
+
+        .name {
+            color: #b35a00;
+            font-size: 22px;
+            font-weight: bold;
+        }
+
+        .details {
+            margin-top: 40px;
+            display: flex;
+            justify-content: space-between;
+            padding: 0 50px;
+            font-size: 16px;
+        }
+
+        .footer {
+            margin-top: 100px;
+            display: flex;
+            justify-content: space-between;
+            padding: 0 50px;
+        }
+
+        .seal {
+            text-align: center;
+            margin-top: 30px;
+        }
+        .seal img{
+            width: 100px;
+        }
+    </style>
+
+</head>
+
+<body>
+    <div class="header">
+        <img src="public/logo.png" alt="logo">
+        <h1>Certifcate of Half Marathon</h1>
+        <p>This Certifcate Presented to</p>
+        <p class="name">{{name}}</p>
+        <p>The certificate of achievement is awarded to individuals who have
+            demonstrated outstanding performance in their field. Here’s an example text
+            for a certificate.</p>
+
+    </div>
+
+    <div class="details">
+        <span>Date Of Birth :{{dob}}</span>
+        <span>Gender :{{gender}}</span>
+        <span>Blood Group :{{dob}}</span>
+    </div>
+
+    <div class="footer">
+        <div>
+            <p>{{dateTime}}</p>
+            <p>DATE-TIME</p>
+        </div>
+        <div>
+            <p>SIGNATURE</p>
+        </div>
+
+    </div>
+
+    <div class="seal">
+        <img src="public/seal.png" alt="seal">
+
+    </div>
+</body>
+
+</html>
